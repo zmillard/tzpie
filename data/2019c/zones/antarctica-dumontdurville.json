@@ -1,0 +1,15 @@
+{
+  "name": "Antarctica/DumontDUrville",
+  "untils": [
+    -725846400000,
+    -566992800000,
+    -415497600000,
+    null
+  ],
+  "offsets": [
+    0,
+    -600,
+    0,
+    -600
+  ]
+}

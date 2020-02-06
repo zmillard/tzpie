@@ -1,0 +1,11 @@
+{
+  "name": "Antarctica/Vostok",
+  "untils": [
+    -380073600000,
+    null
+  ],
+  "offsets": [
+    0,
+    -360
+  ]
+}

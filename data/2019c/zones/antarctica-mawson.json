@@ -1,0 +1,13 @@
+{
+  "name": "Antarctica/Mawson",
+  "untils": [
+    -501206400000,
+    1255809600000,
+    null
+  ],
+  "offsets": [
+    0,
+    -360,
+    -300
+  ]
+}

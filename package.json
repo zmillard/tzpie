@@ -1,0 +1,23 @@
+{
+  "name": "tzpie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ryan Hinchey <rlhinchey@gmail.com> (http://twitter.com/ryhinchey)",
+  "license": "MIT",
+  "ianaVersion": "2019c",
+  "scripts": {
+    "add-modules": "node build-utils/build.js",
+    "get-timezone-data": "rimraf data/npm_package_ianaVersion && node data/getDataFromMomentTimezone.js && node data/createDataFiles.js",
+    "build": "lerna run build",
+    "test-against-moment": "node moment-test.js"
+  },
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "lerna": "^3.16.4",
+    "moment-timezone": "0.5.27",
+    "prettier": "1.18.2",
+    "rimraf": "2.6.3",
+    "rollup": "1.18.0",
+    "validate-npm-package-name": "3.0.0"
+  }
+}
